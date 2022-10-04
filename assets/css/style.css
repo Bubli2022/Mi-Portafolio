@@ -148,9 +148,23 @@ div > a {
 .background--decoration__top {
    width: 65px;
    position: relative;
-   top: -29px;
+   top: -13px;
    right: -127px;
 }
+
+.background--decoration__query {
+   width: 65px;
+   position: relative;
+   top: -85px;
+   right: 0px;
+   opacity: 0;
+}
+
+/*#vectoruno {
+   background-image: url(../image/Captura_de_pantalla_2022-10-04_093841-removebg-preview.png);
+   background-repeat: no-repeat;
+   background-position: top left;
+}*/
 
 .title--habilidades {
    font-size: 25px;
@@ -189,6 +203,11 @@ div > h2 {
 
 .dos {
    color: var(--sure-grey);
+   border-bottom: 1px solid;
+}
+
+.tres {
+   border-bottom: 1px solid var(--sure-grey);
 }
 
 .tres > h3 {
@@ -198,6 +217,11 @@ div > h2 {
 
 .cuatro {
    color: var(--sure-grey);
+   border-bottom: 1px solid;
+}
+
+.cinco {
+   border-bottom: 1px solid var(--sure-grey);
 }
 
 .cinco > h3 {
@@ -237,11 +261,12 @@ div > h2 {
 .ejemplo--tres {
    margin: 1rem;
 }
+
 .background--decoration__bottom {
-   width: 65px;
+   width: 123px;
    position: relative;
-   top: 0px;
-   right: 128px;
+   top: 29px;
+   right: 152px;
 }
 
 .ejemplo--uno {
@@ -349,10 +374,10 @@ div > h2 {
    }
 
    .background--decoration__top {
-      width: 78px;
+      width: 100px;
       position: relative;
-      top: -5px;
-      right: -261px;
+      top: -13px;
+      right: -248px;
    }
 
    .mobile--motion {
@@ -402,16 +427,12 @@ div > h2 {
       grid-template-columns: 178px 321px;
       grid-template-rows: 50px 50px 60px;
    }
-
    .background--decoration__bottom {
-      width: 70px;
-      height: 107px;
+      width: 160px;
       position: relative;
-      top: 109px;
-      right: 267px;
-      z-index: -1;
+      top: 29px;
+      right: 279px;
    }
-
    .portafolio {
       position: relative;
       right: -7px;
@@ -497,12 +518,12 @@ div > h2 {
    .phrase--p {
       width: 570px;
    }
-
    .background--decoration__top {
-      top: 228px;
-      right: -345px;
+      width: 100px;
+      position: relative;
+      top: -13px;
+      right: -332px;
    }
-
    .title--portafolio {
       top: -9px;
    }
@@ -511,11 +532,12 @@ div > h2 {
       position: relative;
       right: -5px;
    }
-
    .background--decoration__bottom {
-      right: 350px;
+      width: 160px;
+      position: relative;
+      top: 29px;
+      right: 362px;
    }
-
    label {
       display: none;
    }
@@ -565,11 +587,12 @@ div > h2 {
       position: relative;
       top: -43px;
    }
-
    .background--decoration__top {
-      right: -457px;
+      width: 100px;
+      position: relative;
+      top: -13px;
+      right: -445px;
    }
-
    .header {
       display: flex;
       flex-direction: column;
@@ -580,9 +603,11 @@ div > h2 {
       flex-direction: row;
       justify-content: space-evenly;
    }
-
    .background--decoration__bottom {
-      right: 460px;
+      width: 160px;
+      position: relative;
+      top: 29px;
+      right: 472px;
    }
 }
 
@@ -596,10 +621,19 @@ div > h2 {
    }
 
    .background--decoration__top {
-      right: -659px;
+      opacity: 0;
    }
+
+   .background--decoration__query {
+      width: 160px;
+      position: relative;
+      top: -85px;
+      right: -461px;
+      opacity: 100;
+   }
+
    .background--decoration__bottom {
-      right: 665px;
+      right: 455px;
    }
 }
 
@@ -613,9 +647,9 @@ div > h2 {
    }
 
    .background--decoration__top {
-      right: 712px;
+      opacity: 0;
    }
    .background--decoration__bottom {
-      right: -709px;
+      right: 470px;
    }
 }
