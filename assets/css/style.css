@@ -62,7 +62,7 @@ label > img {
    min-height: calc(100vh - 80px);
    padding: 1.5rem 1rem;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: space-evenly;
    align-items: center;
    display: flex;
    left: -115%;
@@ -120,6 +120,7 @@ label > img {
    position: relative;
    top: -28px;
    text-align: center;
+   z-index: -1;
 }
 
 .header--title {
